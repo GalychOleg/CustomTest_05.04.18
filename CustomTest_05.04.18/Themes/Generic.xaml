@@ -1,0 +1,33 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:CustomTest_05._04._18">
+
+
+    <Style TargetType="{x:Type local:Costom1}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:Costom1}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*"/>
+                            <RowDefinition Height="5*"/>
+                            <RowDefinition Height="0.8*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Background="#505050" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button x:Name="Back" Foreground="Black" FontSize="20" Content="Back" Height ="40" Width="110" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" />
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <TextBlock FontSize="30" FontWeight="Bold" Foreground="White">MARATHON SKILLS 2018</TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Background="#505050" Grid.Row="2">
+                            <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <TextBlock Foreground="White" FontSize="20"> asdfghjkl;lkjhgfdsdfghjkl;lkjhg</TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
