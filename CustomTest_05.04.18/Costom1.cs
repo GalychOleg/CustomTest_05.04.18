@@ -59,7 +59,7 @@ namespace CustomTest_05._04._18
             Button = GetTemplateChild("Back") as Button;
             if (Button == null) throw new NullReferenceException();
             Button.Click += (s, e) => BackClick.Invoke(s, e);
-            //first change
+            //first change 2
         }
         
     }
